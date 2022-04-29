@@ -1,0 +1,13 @@
+Data:25/04/2022
+
+Testando as tomadas da bancada do SENAC: 121,2V
+(obs:colocar o multimetro no modo corrente alternada)
+
+Teste de continuidade da tençao do cabo de alimentaçao:0 (otimo,baixa resistencia)
+(Obs:deixar o multimetro no diodo (teste) e colocar ponta com ponta em cada extremidade do cabo)
+
+Testando o cabo de força ligado na tomada:121,2V
+
+Testando a corrente Continua da fonte:
+Laranja-3,25 / Vermelho-4,96 / Amarelo-11,82
+(Obs: 3,3V-LA, 5V-VE e 12V-AM)
