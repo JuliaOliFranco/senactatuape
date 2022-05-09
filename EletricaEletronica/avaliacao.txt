@@ -1,0 +1,22 @@
+Data:09/05/20022
+
+PRIMEIRA ETAPA: TESTES
+ teste tomada:121,4V (fase+neutro) - 121,0V (fase+terra) - 0,5V (neutro+terra)
+ teste continuidade do cabo de alimetação:0 (fase c/ fase - terra c/ terra - neutro c/ neutro)
+ teste de resistencia: 00,3(fase c/ fase) - 00,4(terra c/ terra) - 00,3 (neutro c/ neutro)
+ teste de tensão do cabo de alementação: 121,4V (fase+neutro) - 122,3 (fase+terra) - 0,4 (neutro+terra)
+ teste da fonte com testador:todos ok
+
+SEGUNDA ETAPA: MONTAGEM DA PROTOBOARD
+ circuito 12v = primeira trilha horizontal
+ circuito 5V = segunda trilha horizontal
+ circuito 7V = terceira trilha horizontal
+teste protoboard: 12V = 11,89
+                   5V = 5
+				           7V = 6,88
+ Fiz a conexão de 3 coolers e 4 leds. A corrente foi de 0,61A e a tenção foi de 11,75
+
+Potência 3.1W
+Consumo total 40,9W
+Tensão 122V
+Corrente total 0.86 
