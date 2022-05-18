@@ -1,0 +1,24 @@
+Comandos linux:
+
+teclas de atalho:
+				 ctrl+t = abrir
+				 ctrl+l = limpar
+$= usuario comum
+#= root				 
+id= usuario
+sudo= sempre usar antes de tudo
+sudo apt update= atualizar as listas do apt
+sudo apt upgrade= atualiza todos os software
+sudo apt full-upgrade = atualiza todos os software (completa)
+sudo apt dist-upgrade = atualiza o sistema operacional
+                        kernel
+						
+sudo apt autoremove = remoção de software não mais necessário 						
+sudo apt autoclean = fazer a limpeza do sistema
+
+sudo reboot = reiniciar 
+
+sudo apt install = instalar aplicativos 
+sudo apt psensor
+sudo apt install p7zip-full p7zip-rar guvcview cheese
+sudo apt install kazam audacity kolourpaint notepadqq vlc
