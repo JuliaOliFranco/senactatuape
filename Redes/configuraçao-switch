@@ -1,0 +1,51 @@
+!Modo EXEC privilegiado
+enable 
+
+    !Configurar Data/Hora
+    clock set 14:30:00 14 october 2022
+
+    !Modo de Configuração Global
+    configure terminal
+
+    !Alterar o nome do switch
+    hostname sw-g03
+
+    !Habilitar o serviço de criptografia
+    service password-encryption
+
+    !Habilitar o serviço de marcação de data/hora
+    service timestamps log datetime msec
+
+    !Habilitar segurança de acesso
+    login block-for 120 attemps 4 within 60
+
+    !Desabilitar o recurso de tradução de nomes
+    no ip domain-lookup 
+
+    !DESAFIO: PROCURAR NA INTERNET IMAGENS QUE SEJAM DO TIPO ASCII ART CISCO
+    !Configurar o banner da mensagem do dia
+    banner motd #Switch do Grupo-03#
+
+    !Habilitar a segurança do enable
+    enable secret 123@senac
+
+    !Criar os usuarios locais
+    usarname julia secret 123@senac
+
+    !Configurar a porta console
+    line console 0
+
+        !Habilitar autenticação local
+        login local
+        
+        !sincronismo de logs
+        logging synchronous
+
+        !Habilitara segurança de tempo
+        exec-timeout 5 30
+
+    !sair de todos os modos 
+     end (sair de tudo) ou "ctrl + z"
+
+     !salvar
+     copy running-config startup
